@@ -13,23 +13,27 @@ const users = [
     age: 25,
     photo: "https://randomuser.me/api/portraits/men/1.jpg",
     role: "Desarrollador",
+    isOnline: true,
   },
   {
     name: "Ana",
     age: 28,
     photo: "https://randomuser.me/api/portraits/women/2.jpg",
+    isOnline: false,
   },
   {
     name: "Carlos",
     age: 32,
     photo: "https://randomuser.me/api/portraits/men/3.jpg",
     role: "QA",
+    isOnline: true,
   },
   {
     name: "Lucía",
     age: 22,
     photo: "https://randomuser.me/api/portraits/women/4.jpg",
     role: "Product Owner",
+    isOnline: false,
   },
 ];
 

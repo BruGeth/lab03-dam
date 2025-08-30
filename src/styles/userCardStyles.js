@@ -35,4 +35,17 @@ export default StyleSheet.create({
     color: 'gray',
     marginBottom: 10,
   },
+  nameRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginTop: 12,
+    marginBottom: 0,
+  },
+  onlineDot: {
+    width: 10,
+    height: 10,
+    borderRadius: 5,
+    backgroundColor: 'green',
+    marginLeft: 8,
+  },
 });
